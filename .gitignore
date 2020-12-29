@@ -1,5 +1,4 @@
 # Custom ignored
-.vscode
 build/*
 docs/_build
 .DS_Store
@@ -40,6 +39,13 @@ __pycache__
 *.out
 *.app
 
+# IDE folders
+.vscode
+.vs
+.idea
+
+#Build folders
 python/build/
 python/*egg-info/
 python/dist/
+out
